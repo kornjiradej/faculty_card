@@ -39,6 +39,7 @@ const App = () => {
   const onFectData = async() => {
     const res = await axios.get('https://tcas-assets.skooldio.com/tmp/mock_tcaster_api.json')
     console.log('res :: ',res)
+    // ไม่ทัน
   }
   return (
     <Box>
@@ -74,7 +75,7 @@ const App = () => {
                     alignItems: "center",
                   }}
                 >
-                  <Typography>รอบที่เปิด</Typography>
+                  <Typography className='text'>รอบที่เปิด</Typography>
                 </Box>
                 <Box style={{ display: "flex" }}>
                   <RoundBox>

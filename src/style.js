@@ -32,7 +32,7 @@ export const CardStyled = styled(Box)`
 `;
 
 export const HeaderStyled = styled(Box)`
-  padding: 20px 0px;
+  padding: 0px 20px 20px 20px;
   display: flex;
   position: relative;
   .title {
@@ -73,6 +73,9 @@ export const FavaouriteBox = styled(Box)`
 
 export const ContentStyled = styled(Box)`
   padding: 18px 0px;
+  .text {
+    font-family: Prompt;
+  }
 `;
 
 export const RoundBox = styled(Box)`
